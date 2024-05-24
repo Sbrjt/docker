@@ -5,6 +5,6 @@ RUN npm i
 RUN npm install -g nodemon
 COPY . .
 EXPOSE 3000
-CMD ["npm", "dev"]
+CMD ["npm", "run","dev"]
 
 # docker build -t ...
